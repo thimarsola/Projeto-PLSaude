@@ -1,0 +1,190 @@
+{
+  "procedures": [
+    {
+      "icon": "facial",
+      "title": "Estética Facial",
+      "target": "#estetica-facial"
+    },
+    {
+      "icon": "corporal",
+      "title": "Estética Corporal",
+      "target": "#estetica-corporal"
+    },
+    {
+      "icon": "harmonizacao",
+      "title": "Harmonização Facial",
+      "target": "#harmonizacao-facial"
+    }
+  ],
+  "facial": [
+    {
+      "image": "peeling-fisico",
+      "title": "Peeling Físico, Químico e Elétrico",
+      "description": "Procedimento capaz de promover a renovação celular de forma progressiva, estimulando a regeneração natural dos tecidos."
+    },
+    {
+      "image": "hidratacao-facial",
+      "title": "Hidratação Facial",
+      "description": "Para repor as moléculas de água nas camadas mais superficiais da pele, deixando-a macia com viço e protegida contra as agressões externas do dia a dia."
+    },
+    {
+      "image": "limpeza-de-pele-profunda",
+      "title": "Limpeza de Pele Profunda",
+      "description": "É indicado para remover impurezas da pele e limpeza dos poros. Evita o aparecimento de acne, ressecamento ou de oleosidade excessiva."
+    },
+    {
+      "image": "nutricao-facial",
+      "title": "Nutrição Facial",
+      "description": "Consiste em recuperar parte da vitalidade perdida em que a pele apresenta deficiência em um ou mais componentes da sua estrutura."
+    },
+    {
+      "image": "led",
+      "title": "Led",
+      "description": "Promove um tratamento reparador e regenerador que atinge camadas profundas da pele, aumentando a elasticidade, reduzindo rugas e linhas de expressão."
+    },
+    {
+      "image": "radiofrequencia-facial",
+      "title": "Radiofrequência",
+      "description": "O tratamento utiliza uma fonte de calor que estimula a pele a produzir novas fibras de colágeno melhorando a qualidade e elasticidade da pele."
+    },
+    {
+      "image": "microcorrentes",
+      "title": "Microcorrentes",
+      "description": "Estímulos elétricos que melhoram a flacidez muscular, elasticidade e textura da pele promovendo uma revitalização cutânea."
+    },
+    {
+      "image": "drenagem-linfatica-facial",
+      "title": "Drenagem Linfática Facial",
+      "description": "Massagem feita na face, pescoço e colo que  melhora a circulação sanguínea, prevenindo e conservando a beleza cutânea."
+    },
+    {
+      "image": "microdermoabrasao-facial",
+      "title": "Microdermoabrasão Facial",
+      "description": "A técnica tem o objetivo de afinar a pele, diminuir a aparência visível de poros. Ótimo para quem tem constantemente milliuns, comedões, cicatrizes de acne ou cicatrizes pós-traumática."
+    }
+  ],
+  "corporal": [
+    {
+      "image": "criolipolise-de-placas",
+      "title": "Criolipólise de Placas",
+      "description": "Elimina as células de gordura (adipócitos) através de um processo de congelamento. A Crio de Placas atua de forma plana com uma maior área de abrangência."
+    },
+    {
+      "image": "radiofrequencia-corporal",
+      "title": "Radiofrequência",
+      "description": "Procedimento, que através do calor, ajuda na criação de novas fibras de colágeno para combater a flacidez e o envelhecimento precoce."
+    },
+    {
+      "image": "corrente-russa",
+      "title": "Corrente Russa",
+      "description": "Estimulação de ondas elétricas que provocam contrações musculares. Procedimento indolor, eficaz no aumento da força muscular e na remodelação corporal."
+    },
+    {
+      "image": "ultrassom",
+      "title": "Ultrassom",
+      "description": "Utilizado para o tratamento da gordura localizada e modelação corporal, suas ondas produzem microvibrações capazes de romper os adipócitos."
+    },
+    {
+      "image": "endermoterapia",
+      "title": "Endermoterapia",
+      "description": "Procedimento de massagem profunda realizada a vácuo para promover a eliminação da celulite e da gordura localizada."
+    },
+    {
+      "image": "crioterapia",
+      "title": "Crioterapia",
+      "description": "Tratamento com argila ou gel, ambos resfriam o local a ser tratado. Combate flacidez e tonifica a pele."
+    },
+    {
+      "image": "drenagem-linfatica",
+      "title": "Drenagem Linfática",
+      "description": "Técnica realizada através de manobras lentas e suaves que ativa o sistema linfático promovendo uma “limpeza no organismo”."
+    },
+    {
+      "image": "tratamento-para-estrias",
+      "title": "Tratamento para Estrias",
+      "description": "Mudanças inesperadas no corpo podem causar estrias. Nossos tratamentos podem melhorar esse processo."
+    },
+    {
+      "image": "massagem-relaxante",
+      "title": "Massagem Relaxante",
+      "description": "Uma mistura de movimentos firmes e suaves com propósitos, tais como: correção de postura e relaxamento."
+    },
+    {
+      "image": "massagem-modeladora",
+      "title": "Massagem Modeladora",
+      "description": "Utiliza movimentos manuais, vigorosos e firmes para reorganizar as camadas de gordura promovendo um melhor contorno corporal."
+    },
+    {
+      "image": "microdermoabrasao",
+      "title": "Microdermoabrasão",
+      "description": "Esfoliação controlada que une a perfeição do diamante com a ação da pressão negativa. Promove o aumento da produção das fibras de colágeno e elastina."
+    },
+    {
+      "image": "termoterapia",
+      "title": "Termoterapia",
+      "description": "Utilização de mantas térmicas para ajudar na redução de medidas, facilitar a penetração de ativos pela permeabilidade cutânea e pela vasodilatação."
+    }
+  ],
+  "harmonizing": [
+    {
+      "image": "toxina-botulinica",
+      "title": "Toxina Botulínica",
+      "description": "É usada para previnir ou amenizar as rugas e linhas de expressão, queixas como sorriso gengival, enxaqueca, bruxismo, entre outras questões funcionais."
+    },
+    {
+      "image": "preenchimento-facial",
+      "title": "Preenchimento Facial",
+      "description": "Procedimento que dá volume às áreas faciais que perderam colágeno. Corrige contornos e reestrutura a face deixando o rosto mais simétrico."
+    },
+    {
+      "image": "preenchimento-labial",
+      "title": "Preenchimento Labial",
+      "description": "Procedimento minimamente invasivo e indolor através do uso da anestesia odontológica. Aumenta o volume dos lábios e melhora o contorno da boca."
+    },
+    {
+      "image": "full-face",
+      "title": "Full Face",
+      "description": "Tem como objetivo o rejuvenescimento facial através de procedimentos que visam a revitalização equilibrada e completa da face."
+    },
+    {
+      "image": "fios-de-pdo",
+      "title": "Fios de PDO",
+      "description": "Tratamento facial rejuvenescedor que utiliza fios de polidioxanona lisos ou espiculados com capacidade simultânea de proporcionar um suporte natural às estruturas da face e estimular a produção de colágeno e elastina."
+    },
+    {
+      "image": "bichectomia",
+      "title": "Bichectomia",
+      "description": "Inicialmente é indicada por questão funcionais às pessoas que mordem a bochecha, porém é ideal para quem quer mudar o formato arredondado do rosto."
+    },
+    {
+      "image": "bioestimulador-de-colageno",
+      "title": "Bioestimulador de Colágeno",
+      "description": "A estimulação da produção de colágeno é peça chave na prevenção do envelhecimento e também para o rejuvenescimento."
+    },
+    {
+      "image": "microagulhamento",
+      "title": "Microagulhamento",
+      "description": "Procedimento pouco invasivo que consiste em microperfurações na pele, que induz a produção do colágeno e de outras fibras naturais."
+    },
+    {
+      "image": "skinbooster",
+      "title": "Skinbooster",
+      "description": "Hidratação injetável que trata profundamente a pele, tem efeito preventivo, melhora os sinais da idade deixando-a uma aparência mais saudável."
+    },
+    {
+      "image": "emagrecimento-facial",
+      "title": "Emagrecimento Facial",
+      "description": "A técnica lipoenzimática injetável é responsável por acelerar o metabolismo e facilitar a quebra de gordura estocada dentro das células."
+    },
+    {
+      "image": "eletrocalterio",
+      "title": "Eletrocaltério",
+      "description": "Através de corrente elétrica alternada, promove a remoção superficial da pele eliminando manchas senis, reduzindo linhas da mimica facial e promovendo lifting para melhora da flacidez."
+    },
+    {
+      "image": "ozonioterapia",
+      "title": "Ozonioterapia",
+      "description": "Procedimento minimamente invasivo e conservador, com baixo nível de contraindicações. Promove rejuvenescimento, hidratação, combate acnes, dermatites e flacidez."
+    }
+  ]
+}

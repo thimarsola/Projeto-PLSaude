@@ -1,0 +1,39 @@
+$primary: #D59F4E;
+$neutral: #363636;
+$light-gray: #F5F5F5;
+$white: #fff;
+$whatsapp: #25D366;
+
+$colors: (
+    "primary": (
+        100: mix(white, $primary, 80%),
+        200: mix(white, $primary, 60%),
+        300: mix(white, $primary, 40%),
+        400: mix(white, $primary, 20%),
+        500: $primary,
+        600: mix(black, $primary, 20%),
+        700: mix(black, $primary, 40%),
+        800: mix(black, $primary, 60%),
+        900: mix(black, $primary, 80%),
+    ),
+    "neutral": (
+        100: mix(white, $neutral, 80%),
+        200: mix(white, $neutral, 60%),
+        300: mix(white, $neutral, 40%),
+        400: mix(white, $neutral, 20%),
+        500: $neutral,
+        600: mix(black, $neutral, 20%),
+        700: mix(black, $neutral, 40%),
+        800: mix(black, $neutral, 60%),
+        900: mix(black, $neutral, 80%),
+    ),
+    "light-gray":(
+        500: $light-gray
+    ),
+    "white":(
+        500: $white
+    ),
+    "whatsapp":(
+        500: $whatsapp
+    )
+);

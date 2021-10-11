@@ -1,0 +1,136 @@
+@use "../../abstracts" as *;
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:{
+        image: url('../images/background-home.jpg');
+        size: cover;
+        position: top center;
+    }
+
+    &::before{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 23.5%;
+        height: 50%;
+        background:{
+            image: url("../images/imagem-petalas-01.png");
+            size: contain;
+            position: right top;
+            repeat: no-repeat;
+        }
+        content: '';
+        z-index: 2;
+    }
+
+    &::after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 14.5%;
+        height: 35%;
+        background:{
+            image: url("../images/imagem-petalas-02.png");
+            size: contain;
+            position: left bottom;
+            repeat: no-repeat;
+        }
+        content: '';
+        z-index: 2;
+    }
+
+    &__divider{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    &__container{
+        position: relative;
+        max-width: 66.5rem;
+        width: 100%;
+        z-index: 5;
+
+        &__header{
+            h2{
+                font-size: 11.2rem;
+                color: var(--clr-primary-500);
+            }
+        }
+
+        &__content{
+            text-align: justify;
+        }
+    }
+
+    //breakpoint 1440px
+    @include bp(1440px){
+        background-image: url("../images/background-home-1440.jpg");
+
+        &::before{
+            left: 0;
+            width: 20.5%;
+            height: 47%;
+            background:{
+                image: url("../images/imagem-petalas-03.png");
+                position: left top;
+            }
+        }
+
+        &::after{
+            bottom: -5rem;
+            left: initial;
+            right: 0;
+            width: 14.5%;
+            height: 35%;
+            background:{
+                image: url("../images/imagem-petalas-04.png");
+                position: right bottom;
+            }
+        }
+    }
+
+    //breakpoint 1024px
+    @include bp(1024px){
+        background-position: 75% center;
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        background-position: 85% center;
+
+        &::before{
+            width: 26rem;
+            height: 35rem;
+        }
+
+        &::after{
+            width: 20rem;
+            height: 30rem;
+        }
+
+        &__container{
+            max-width: 52rem;
+        }
+    }
+
+    //breakpoint mobile
+    @include mq(sm){
+
+        &::before{
+            width: 18rem;
+            height: 28rem;
+        }
+
+        &::after{
+            width: 16rem;
+            height: 36rem;
+        }
+    }
+}
