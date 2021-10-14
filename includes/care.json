@@ -1,0 +1,24 @@
+{
+  "care": [
+    {
+      "title": "Avaliação Clínica",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de medicina assistencial: "
+    },
+    {
+      "title": "Exames Laboratoriais",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de medicina assistencial: "
+    },
+    {
+      "title": "Fonoaudiologia",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de medicina assistencial: "
+    },
+    {
+      "title": "Raio-X",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de medicina assistencial: "
+    },
+    {
+      "title": "Teste de Aptidão Física",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de medicina assistencial: "
+    }
+  ]
+}

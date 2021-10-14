@@ -1,25 +1,24 @@
 @use '../abstracts' as *;
 
 .btn {
-    display: inline-block !important;
     margin: 0;
-    padding: var(--fs-200) var(--fs-600);
-    border-top-left-radius: var(--fs-200);
-    border-bottom-right-radius: var(--fs-200);
+    padding: var(--fs-200) var(--fs-400);
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--fs-100);
     cursor: pointer;
     vertical-align: middle;
     outline: none;
-    border: none;
+    border: 2px solid transparent;
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
-    line-height: 1.1 !important;
+    line-height: 1 !important;
 
     font: {
         family: var(--medium) !important;
         size: 1.8rem;
     }
-
-    text-transform: uppercase;
 
     &:active {
         transform: scale(1.1);
@@ -31,48 +30,76 @@
     @each $prop, $value in $shade {
         @if $value == white {
             .btn-#{$color}-#{$prop} {
-                background-color: $value;
                 color: var(--clr-neutral-500);
+                border-color: $value;
+                background-color: $value;
                 @include transition(all);
 
-                &:hover {
+                &:hover, &:focus {
                     color: var(--clr-white-500);
-                    background-color: var(--clr-green-500);
+                    background-color: var(--clr-primary-500);
+                    border-color: var(--clr-primary-500);
                     @include transition(all);
                 }
             }
         }@else if $color == neutral{
             .btn-#{$color}-#{$prop} {
-                background-color: $value;
                 color: var(--clr-white-500);
+                border-color: $value;
+                background-color: $value;
                 @include transition(all);
 
-                &:hover {
+                &:hover, &:focus {
                     color: var(--clr-neutral-500);
+                    border-color: var(--clr-white-500);
                     background-color: var(--clr-white-500);
                     @include transition(all);
                 }
             }
-        }@else if $color == #{black}{
+        }@else {
             .btn-#{$color}-#{$prop} {
-                background-color: $value;
                 color: var(--clr-white-500);
+                border-color: $value;
+                background-color: $value;
                 @include transition(all);
 
-                &:hover {
-                    background-color: lighten($value, 20%);
-                    @include transition(background-color);
+                &:hover, &:focus {
+                    border-color: darken($value, 10%);
+                    background-color: darken($value, 10%);
+                    @include transition(all);
+                }
+            }
+        }
+    }
+}
+
+@each $color, $shade in $colors{
+    @each $prop, $value in $shade {
+        @if $value == white {
+            .btn-outline-#{$color}-#{$prop} {
+                color: $value;
+                border-color: $value;
+                background: transparent;
+                @include transition(all);
+
+                &:hover, &:focus {
+                    color: var(--clr-primary-500);
+                    background: $value;
+                    @include transition(all);
                 }
             }
         }@else {
-            .btn-#{$color}-#{$prop} {
-                background-color: $value;
-                color: var(--clr-white-500);
-                @include transition(background-color);
+            .btn-outline-#{$color}-#{$prop} {
+                color: $value;
+                border-color: $value;
+                background: transparent;
+                @include transition(all);
 
-                &:hover {
-                    background-color: darken($value, 10%);
-                    @include transition(background-color);
+                &:hover, &:focus {
+                    color: var(--clr-white-500);
+                    background: $value;
+                    border-color: $value;
+                    @include transition(all);
                 }
             }
         }

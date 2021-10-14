@@ -31,5 +31,8 @@ require_once get_template_directory() . '/inc/Pagination.php';
 //SITEMAP SUPPORT
 require_once get_template_directory() . '/inc/Sitemap.php';
 
-//CUSTOM STHEME SUPPORT
+//CUSTOM THEME SUPPORT
 require_once get_template_directory() . '/inc/ThemeSupport.php';
+
+//CUSTOM POST TYPE UNITS
+require_once get_template_directory() . '/inc/Units.php';

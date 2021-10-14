@@ -4,7 +4,7 @@
 
 html {
     font-size: var(--font-base) !important;
-    color: var(--clr-neutral-500) !important;
+    color: var(--clr-gray-500) !important;
 }
 
 body {
@@ -15,8 +15,9 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: var(--cursive) !important;
+    font-family: var(--bold) !important;
     font-size: inherit;
+    color: var(--clr-neutral-500) !important;
     line-height: 1.1;
 }
 
@@ -34,6 +35,10 @@ a {
     &:focus {
         text-decoration: none;
     }
+}
+
+i{
+    font-size: inherit !important;
 }
 
 address {

@@ -1,0 +1,19 @@
+{
+  "covid": [
+    {
+      "title": "Teste de COVID-19",
+      "description": [
+        "Nossa clínica está pronta para receber pessoas que necessitem fazer três tipos de teste de COVID-19.",
+        "a) Teste-Rápido IGG/IGM - realizado com uma amostra de sangue, detecta a presença de anticorpos no organismo. Resultado em 20 minutos",
+        "b) Teste IGG/IGM por Sorologia - Realizado com uma amostra de sangue. Resultado analisado em laboratório.",
+        "c) O Teste-Rápido Antígeno - realizado com amostras de swab (cotonete), o qual será introduzido no nariz até a região conhecida como nasofaringe. O procedimento é indolor, mas é possível existir certo desconforto."
+      ]
+    },
+    {
+      "title": "Teste de COVID-19 in loco",
+      "description": [
+        "Além da possibilidade de realização do teste de Covid em nossas instalações, também é possível mobilizar nossa equipe de saúde para realização dos rápidos de Covid nas dependências da empresa. Basta ter uma quantidade mínima de colaboradores. Desta forma otimiza tempo de deslocamento e tempo de ação para a possibilidade de haver um caso positivo."
+      ]
+    }
+  ]
+}

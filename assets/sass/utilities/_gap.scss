@@ -1,0 +1,7 @@
+@use '../abstracts' as *;
+
+@for $i from 1 through 10{
+    .gp-#{$i}{
+        gap: calc(var(--fs-100) * #{$i});
+    }
+}

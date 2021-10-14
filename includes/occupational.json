@@ -1,0 +1,24 @@
+{
+  "occupational": [
+    {
+      "title": "Clínica",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de Clínica"
+    },
+    {
+      "title": "Gestão de vidas",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de Gestão de vidas"
+    },
+    {
+      "title": "PCMSO",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de PCMSO"
+    },
+    {
+      "title": "Pericia Médica e Técnica",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de Pericia Médica e Técnica"
+    },
+    {
+      "title": "Programa Qualidade de vida",
+      "message": "Olá PL Saúde, gostaria de maiores informações sobre o serviço de Programa Qualidade de vida"
+    }
+  ]
+}

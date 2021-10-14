@@ -26,6 +26,8 @@
     "jquery": "^3.6.0",
     "magnific-popup": "^1.1.0",
     "owl.carousel": "^2.3.4",
-    "sweetalert2": "^11.1.5"
+    "sweetalert2": "^11.1.5",
+    "counterup": "^1.0.2",
+    "waypoints": "^4.0.1"
   }
 }

@@ -19,14 +19,15 @@ $homeCss->minify(dirname(__DIR__, 1) . "/assets/css/style.min.css");
  */
 $homeJs = new MatthiasMullie\Minify\JS();
 $homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/menu.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/home/sticky.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/scroll.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/home/toggle.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/menu.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/sticky.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/scroll.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/toggle.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/counterup.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.counterup.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.waypoints.js");
 $homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.magnific-popup.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/home/gallery.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/owl.carousel.min.js");
-$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/home/carousel.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/gallery.js");
 $homeJs->minify(dirname(__DIR__, 1) . "/assets/js/script-home.min.js");
 
 /**

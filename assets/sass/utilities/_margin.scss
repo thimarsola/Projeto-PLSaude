@@ -1,6 +1,9 @@
 @use '../abstracts' as *;
 
 @for $i from 1 through 10{
+    .mx-#{$i}{
+        margin: 0 calc(var(--fs-100) * #{$i});
+    }
     .my-#{$i}{
         margin: calc(var(--fs-100) * #{$i}) 0;
     }
@@ -11,5 +14,13 @@
 
     .mb-#{$i}{
         margin-bottom: calc(var(--fs-100) * #{$i});
+    }
+
+    .mr-#{$i}{
+        margin-right: calc(var(--fs-100) * #{$i});
+    }
+
+    .ml-#{$i}{
+        margin-left: calc(var(--fs-100) * #{$i});
     }
 }

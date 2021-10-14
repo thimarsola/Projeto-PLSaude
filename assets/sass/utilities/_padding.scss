@@ -5,6 +5,10 @@
         padding: calc(var(--fs-100) * #{$i});
     }
 
+    .px-#{$i}{
+        padding: 0 calc(var(--fs-100) * #{$i});
+    }
+
     .py-#{$i}{
         padding: calc(var(--fs-100) * #{$i}) 0;
     }
@@ -15,5 +19,13 @@
 
     .pb-#{$i}{
         padding-bottom: calc(var(--fs-100) * #{$i});
+    }
+
+    .pr-#{$i}{
+        padding-right: calc(var(--fs-100) * #{$i});
+    }
+
+    .pl-#{$i}{
+        padding-left: calc(var(--fs-100) * #{$i});
     }
 }

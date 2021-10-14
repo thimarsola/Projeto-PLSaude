@@ -6,7 +6,6 @@
     --regular: "Montserrat Regular", sans-serif;
     --medium: "Montserrat Medium", sans-serif;
     --bold: "Montserrat Bold", sans-serif;
-    --cursive: "Great Vibes", cursive;
 
     @include breakpoint(md) {
         --font-base: 62.5%;
