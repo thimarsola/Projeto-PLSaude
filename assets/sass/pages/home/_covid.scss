@@ -1,0 +1,61 @@
+@use "../../abstracts" as *;
+
+.covid{
+    &__container{
+        background:{
+            image: url("../images/background-covid.svg");
+            size: cover;
+            position: right top;
+        }
+
+        &__header{
+            margin: 0 auto;
+            max-width: 73rem;
+
+            h2{
+                font-size: var(--fs-500);
+            }
+        }
+
+        &__content{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__image{
+                width: 38rem;
+                height: 38rem;
+                border-radius: 50%;
+                background:{
+                    image: url("../images/background-covid.jpg");
+                    size: contain;
+                    position: center;
+                    repeat: no-repeat;
+                }
+            }
+        }
+    }
+
+    &__row{
+        margin-top: -12rem;
+        grid-template-columns: 1fr;
+
+        &__card{
+            padding: var(--fs-500) var(--fs-300);
+
+            &__header{
+                h3{
+                    font-size: var(--fs-300);
+                }
+            }
+        }
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        &__container{
+            background-image: url("../images/background-covid-tablet.svg");
+        }
+    }
+}

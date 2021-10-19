@@ -1,5 +1,5 @@
 <!-- card -->
- <article class="units__row__card bg-white-500 shadow radius p-4">
+ <article class="units__row__card bg-white-500 d-flex gp-3 ai-center jc-center shadow m-radius p-4">
      <!-- image -->
       <div class="units__row__card__image">
           <img src="<?= image('vetor-unidade.svg') ?>" alt="Conheça esta unidade PL Saúde" loading="lazy">

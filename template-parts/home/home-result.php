@@ -19,7 +19,7 @@
                 <article class="result__row__card bg-white-500 t-center shadow">
                     <!-- body -->
                     <div class="result__row__card__body clr-primary-500 mb-1">
-                        <p><b><?= $result['result']; ?></b></p>
+                        <p><?= $result['result']; ?></p>
                     </div>
                     <!-- end of body -->
 

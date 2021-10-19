@@ -1,4 +1,4 @@
-<section id="medicina-ocupacional" class="occupational py-10">
+<section id="medicina-ocupacional" class="occupational mt-10 py-10">
     <!-- container -->
      <div class="occupational__container">
          <!-- row -->
@@ -35,7 +35,7 @@
                                  foreach ($occupationalList['occupational'] as $link):
                                  ?>
                                  
-                                 <li>
+                                 <li class="radius">
                                      <a href="<?= get_the_permalink(get_page_by_title($link['title'])); ?>" title="Conheça mais sobre esse nosso serviço" target="_blank"><?= $link['title']; ?></a>
                                  </li>
                                  

@@ -21,6 +21,10 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow:before {
+  content: "";
+}
+
 .icon-clock:before {
   content: "";
 }

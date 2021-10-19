@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="736" viewBox="0 0 768 736">
+  <defs>
+    <clipPath id="clip-background-covid-tablet">
+      <rect width="768" height="736"/>
+    </clipPath>
+  </defs>
+  <g id="background-covid-tablet" clip-path="url(#clip-background-covid-tablet)">
+    <rect width="768" height="736" fill="#fff"/>
+    <g id="background-covid" transform="translate(0 -4153)">
+      <path id="Caminho_33" data-name="Caminho 33" d="M0,0H768.3V736H0Z" transform="translate(0 4153)" fill="#f8f8f8"/>
+      <path id="Subtração_3" data-name="Subtração 3" d="M-347.827,540.622h0l-108.811-.036,108.811-191.246V540.621ZM0,449.4H0V0H255.04L0,449.4Z" transform="translate(-30 4153)" fill="#f2f2f2"/>
+      <path id="Subtração_4" data-name="Subtração 4" d="M349.855,615.026h0L-6,614.907,349.855-10.545V615.025Z" transform="translate(418.45 4233.975)" fill="#f2f2f2"/>
+      <path id="Subtração_2" data-name="Subtração 2" d="M104.146,130.329H38.176L0,95.955,15.4,22.946,86.4,0,142,50.062l-15.4,73.01-22.454,7.257h0Z" transform="translate(0 4758.672)" fill="#00a6d9"/>
+      <path id="Subtração_6" data-name="Subtração 6" d="M34.95,65.713h0L0,22.529,8.6,0H80V58.643L34.95,65.713Z" transform="translate(688 4153)" fill="#00a6d9"/>
+    </g>
+  </g>
+</svg>

@@ -6,7 +6,7 @@
               <!-- images -->
                <div class="emergency__container__row__images grid">
                    <?php
-                   for ($i = 0; $i < 4; $i++){
+                   for ($i = 1; $i < 4; $i++){
                        echo picture('imagem-emergencia-' . str_pad($i, 2, 0, STR_PAD_LEFT), 'Serviço de emergência PL Saúde');
                    }
                    ?>

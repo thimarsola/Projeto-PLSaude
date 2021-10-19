@@ -1,0 +1,118 @@
+@use "../../abstracts" as *;
+
+.emergency{
+    &__container{
+        margin-right: auto;
+        padding-right: var(--gap);
+        max-width: calc(151.5rem + var(--gap));
+
+        &__row{
+
+            &__images{
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: repeat(3, 1fr);
+
+                @include image;
+
+                picture{
+                    &:nth-child(1){
+                        grid-column: 1/2;
+                        grid-row: 1/2;
+                    }
+                    &:nth-child(2){
+                        grid-column: 2/3;
+                        grid-row: 1/4;
+                    }
+                    &:nth-child(3){
+                        grid-column: 1/2;
+                        grid-row: 2/4;
+                    }
+                }
+            }
+
+            &__content{
+                align-self: center;
+
+                &__header{
+                    h2{
+                        font-size: var(--fs-500);
+                    }
+                }
+            }
+        }
+    }
+
+    //breakpoint 1440px
+    @include bp(1440px){
+        &__container{
+            max-width: calc(126.75rem + var(--gap));
+        }
+    }
+
+    //breakpoint 1366x
+    @include bp(1366px){
+        &__container{
+            max-width: calc(123.05rem + var(--gap));
+        }
+    }
+
+    //breakpoint 1280px
+    @include bp(1280px){
+        &__container{
+            max-width: calc(118.75rem + var(--gap));
+        }
+    }
+
+    //breakpoint 1194px
+    @include bp(1194px){
+        &__container{
+            max-width: calc(115.2rem + var(--gap));
+        }
+    }
+
+    //breakpoint 1112px
+    @include bp(1112px){
+        &__container{
+            max-width: calc(102.1rem + var(--gap));
+        }
+    }
+
+    //breakpoint 1024px
+    @include bp(1024px){
+        &__container{
+            max-width: calc(97.7rem + var(--gap));
+
+            &__row{
+                grid-template-columns: 1fr 1.25fr;
+            }
+        }
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        background: var(--clr-light-gray-500);
+
+        &__container{
+            margin: 0 auto;
+            padding: 0 calc(var(--gap) * 2);
+            max-width: var(--md);
+
+            &__row{
+                grid-template-columns: 1fr;
+                gap: calc(var(--gap) * 3);
+
+                &__content{
+                    order: -1;
+
+                    &__header{
+                        text-align: left;
+                    }
+
+                    &__body{
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}

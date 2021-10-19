@@ -1,4 +1,4 @@
-<section class="units py-10">
+<section class="units py-10 bg-primary-500">
     <div class="container">
         <!-- header -->
          <header class="units__header clr-white-500 t-center mb-7">

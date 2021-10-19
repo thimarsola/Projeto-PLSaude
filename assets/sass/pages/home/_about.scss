@@ -1,0 +1,31 @@
+@use "../../abstracts" as *;
+
+.about{
+    &__row{
+        &__image{
+            align-self: center;
+
+            img{
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+
+        &__container{
+            &__header{
+                h2{
+                    font-size: var(--fs-500);
+                }
+            }
+        }
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            &__image{
+                display: none;
+            }
+        }
+    }
+}

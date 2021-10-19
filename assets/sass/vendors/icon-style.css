@@ -25,6 +25,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow:before {
+  content: "\e90a";
+}
 .icon-clock:before {
   content: "\e900";
 }

@@ -34,17 +34,17 @@
 
                         <ul class="d-flex gp-1 ai-center">
                             <li class="mr-2">
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['facebook']; ?>">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['facebook']; ?>" title="Siga a PL Saúde no Facebook">
                                     <i class="icon-facebook"></i>
                                 </a>
                             </li>
                             <li class="mr-2">
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['instagram']; ?>">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['instagram']; ?>" title="Siga a PL Saúde no Instagram">
                                     <i class="icon-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['linkedin']; ?>">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['linkedin']; ?>" title="Siga a PL Saúde no Linkedin">
                                     <i class="icon-linkedin"></i>
                                 </a>
                             </li>
@@ -92,13 +92,13 @@
                              Seg-Sex: 7:00 às 17:00
                          </li>
                          <li>
-                             <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['addressLink']; ?>" target="_blank">
+                             <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['addressLink']; ?>" target="_blank" title="Venha conhecer a PL Saúde">
                                  <i class="icon-target mr-1"></i>
                                  <?= CONTACT['address']; ?>
                              </a>
                          </li>
                          <li>
-                             <a class="link-white-500" rel="nofollow noreferrer noopener" href="tel:<?= formatPhone(CONTACT['phone']['01']); ?>" target="_blank">
+                             <a class="link-white-500" rel="nofollow noreferrer noopener" href="tel:<?= formatPhone(CONTACT['phone']['01']); ?>" target="_blank" title="Vamos conversar pelo telefone?">
                                  <i class="icon-phone mr-1"></i>
                                  <?= CONTACT['phone']['01']; ?>
                              </a>
@@ -144,8 +144,11 @@
 
                 <!-- agency -->
                 <div class="footer__developer__row__agency">
-                    <p>Desenvolvido por
-                        <b><a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= DEV['url']; ?>" target="_blank" title="Agência Especializada em Marketing Digital"><?= DEV['name']; ?></a></b>
+                    <p>
+                        <small>
+                            Desenvolvido por
+                            <b><a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= DEV['url']; ?>" target="_blank" title="Agência Especializada em Marketing Digital"><?= DEV['name']; ?></a></b>
+                        </small>
                     </p>
                 </div>
                 <!-- end of agency -->
@@ -167,8 +170,10 @@
                         ?>
 
                         <a class="d-flex ai-center gp-1 link-white-500" rel="nofollow noreferrer noopener" href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2F<?= $urlBase ?>%2F" target="_blank" title="Tecnologia W3C">
-                            <i class="icon-html"></i>
-                            W3C Validator
+                            <small>
+                                <i class="icon-html"></i>
+                                W3C Validator
+                            </small>
                         </a>
                     </div>
                 <?php endif; ?>

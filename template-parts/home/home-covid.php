@@ -4,15 +4,15 @@
         <div class="container">
 
             <!-- header -->
-            <header class="covid__container__header mb-4">
-                <h2>Soluções <span class="clr-primary-500">COVID-19</span></h2>
+            <header class="covid__container__header">
+                <h2 class="mb-4">Soluções <span class="clr-primary-500">COVID-19</span></h2>
+                <p>Preocupado com a saúde das pessoas em meio a pandemia do novo coronavírus, a PL Saúde Ocupacional oferece uma série de serviços contra a Covid-19, como por exemplo:</p>
             </header>
             <!-- end of header -->
 
             <!-- content -->
-            <div class="covid__container__content">
-                <p>Preocupado com a saúde das pessoas em meio a pandemia do novo coronavírus, a PL Saúde Ocupacional oferece uma série de serviços contra a Covid-19, como por exemplo:</p>
-                <span class="mt-6 shadow"></span>
+            <div class="covid__container__content mt-6">
+                <span class="covid__container__content__image shadow"></span>
             </div>
             <!-- end of content -->
 
@@ -31,7 +31,7 @@
              ?>
 
              <!-- card -->
-              <article class="covid__row__card bg-white-500 t-justify shadow radius p-4">
+              <article class="covid__row__card bg-white-500 t-justify shadow radius">
                   <!-- header -->
                   <header class="covid__row__card__header mb-2">
                       <h3><?= $covid['title']; ?></h3>

@@ -18,7 +18,7 @@
            </header>
           <!-- end of header -->
 
-          <a href="<?= get_the_permalink(); ?>" title="Veja esse nosso artigo sobre: <?= get_the_title(); ?>" class="clr-primary-500" target="_blank">Leia mais</a>
+          <a href="<?= get_the_permalink(); ?>" title="Veja esse nosso artigo sobre: <?= get_the_title(); ?>" class="link-primary-500" target="_blank">Leia mais</a>
       </div>
      <!-- end of body -->
  </article>
