@@ -1,0 +1,36 @@
+{
+  "exams": [
+    {
+      "title": "Acuidade Visual",
+      "description": "O teste de acuidade visual tem como objetivo checar a capacidade funcional da vista de um colaborador, avaliando se este possui algum problema na visão que ofereça riscos a ele e aos seus colegas."
+    },
+    {
+      "title": "Audiometria",
+      "description": "O exame de audiometria é realizado por um médico ou fonoaudiólogo, e tem como objetivo detectar e determinar se existe algum nível de perda auditiva ou se a audição está dentro da normalidade."
+    },
+    {
+      "title": "Avaliação Psicossocial",
+      "description": "É uma avaliação, realizada por um profissional, que contempla aspectos comportamentais, psicopatológicos, cognitivos e de personalidade, avaliando o colaborador, visando mapear seu perfil psicossocial."
+    },
+    {
+      "title": "Exames Laboratoriais",
+      "description": "É um conjunto de testes e exames realizados em laboratórios de analises, com o objetivo de monitoramento da saúde, como hemograma, glicemia, colesterol, entre outros."
+    },
+    {
+      "title": "Espirometria",
+      "description": "Também conhecido como Prova de Função Pulmonar, A espirometria é o teste de função pulmonar mais comum para avaliar a saúde dos seus pulmões, sendo útil para ajudar a diagnosticar e tratar várias doenças respiratórias."
+    },
+    {
+      "title": "Eletrocardiograma",
+      "description": "Também chamado de ECG ou eletrocardiografia, é um exame que avalia a atividade elétrica do coração por meio de eletrodos fixados na pele, com o intuito de detectar o ritmo do coração e o número de batimentos por minuto."
+    },
+    {
+      "title": "Eletroencefalograma",
+      "description": "Também chamado de EEG ou eletroencefalografia é um exame que permite o estudo do registro gráfico das correntes elétricas espontâneas emitidas no cérebro, através de eletrodos aplicados no couro cabeludo, na superfície encefálica ou até mesmo dentro da substância encefálica."
+    },
+    {
+      "title": "Raio-X",
+      "description": "É um exame de diagnóstico por imagem que usa radiação ionizante para produzir imagens internas de diversas partes do corpo, como órgãos, ossos, músculos, vasos sanguíneos e outras estruturas"
+    }
+  ]
+}

@@ -4,6 +4,10 @@ require_once __DIR__ . "/vendor/autoload.php";
 //FORMAT PHONE NUMBER
 require_once get_template_directory() . '/inc/Format.php';
 
+
+//FUNCTION TO FORMAT THE CNPJ AND CPF
+require_once get_template_directory() . '/inc/FormatDocument.php';
+
 //CREATE A WHATSAPP ANCHOR
 require_once get_template_directory() . '/inc/Whatsapp.php';
 

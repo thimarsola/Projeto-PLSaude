@@ -12,6 +12,11 @@
     @include transition(position);
 }
 
+.d-inline{
+    width: 100%;
+    display: inline-block;
+}
+
 .d-flex{
     width: 100%;
     display: flex;

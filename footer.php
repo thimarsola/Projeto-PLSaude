@@ -2,11 +2,11 @@
 <!-- end of main -->
 
 <!-- footer -->
-<footer class="footer bg-dark-blue-500 clr-white-500">
+<footer class="footer clr-white-500">
 
     <!-- cta -->
     <div class="container">
-        <div class="footer__cta bg-primary-500">
+        <div class="footer__cta bg-primary-500 d-flex gp-2 ai-center jc-between">
             <p>Vamos conversar? Ligue-nos a qualquer momento!</p>
 
             <!-- content -->
@@ -20,7 +20,7 @@
     <!-- end of cta -->
 
     <!-- content -->
-    <div class="footer__content t-justify py-5">
+    <div class="footer__content bg-dark-blue-500 t-justify">
         <div class="container">
             <!-- row -->
             <div class="footer__content__row grid">
@@ -34,17 +34,17 @@
 
                         <ul class="d-flex gp-1 ai-center">
                             <li class="mr-2">
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['facebook']; ?>" title="Siga a PL Saúde no Facebook">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['facebook']; ?>" title="Siga a PL Saúde no Facebook" target="_blank">
                                     <i class="icon-facebook"></i>
                                 </a>
                             </li>
                             <li class="mr-2">
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['instagram']; ?>" title="Siga a PL Saúde no Instagram">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['instagram']; ?>" title="Siga a PL Saúde no Instagram" target="_blank">
                                     <i class="icon-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['linkedin']; ?>" title="Siga a PL Saúde no Linkedin">
+                                <a class="link-white-500" rel="nofollow noreferrer noopener" href="<?= CONTACT['linkedin']; ?>" title="Siga a PL Saúde no Linkedin" target="_blank">
                                     <i class="icon-linkedin"></i>
                                 </a>
                             </li>
@@ -140,7 +140,7 @@
         <div class="container">
 
             <!-- row -->
-            <div class="footer__developer__row d-flex jc-between ai-center">
+            <div class="footer__developer__row d-flex gp-1 jc-between ai-center">
 
                 <!-- agency -->
                 <div class="footer__developer__row__agency">
@@ -169,9 +169,9 @@
                         }
                         ?>
 
-                        <a class="d-flex ai-center gp-1 link-white-500" rel="nofollow noreferrer noopener" href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2F<?= $urlBase ?>%2F" target="_blank" title="Tecnologia W3C">
+                        <a class="link-white-500" rel="nofollow noreferrer noopener" href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2F<?= $urlBase ?>%2F" target="_blank" title="Tecnologia W3C">
                             <small>
-                                <i class="icon-html"></i>
+                                <i class="icon-html mr-1"></i>
                                 W3C Validator
                             </small>
                         </a>

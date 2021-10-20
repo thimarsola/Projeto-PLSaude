@@ -95,7 +95,7 @@ if (function_exists('custom_wp_body_open')) {
 if(!is_404()):
 ?>
 <!--header-->
-<?php //get_template_part('template-parts/header/header', 'header'); ?>
+<?php get_template_part('template-parts/header/header', 'header'); ?>
 <!--end of header-->
 
 <!-- whatsapp -->

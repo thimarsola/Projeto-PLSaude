@@ -72,8 +72,8 @@
         }
     }
 
-    //breakpoint 1024px
-    @include bp(1024px){
+    //breakpoint 1194px
+    @include bp(1194px){
         &__content{
             padding: var(--fs-1000) var(--fs-500);
 
